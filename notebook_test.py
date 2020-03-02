@@ -19,7 +19,7 @@ noteee = Note('Here me again', 'hi!')
 note = Note('Hello everyone in the world.', 'world')
 notebook = Notebook()
 
-print('Type of the note, first note dictionary, note attributes')
+print('Type of the note, first note of the dictionary, note attributes')
 print(type(notee))
 print(notee.__dict__)
 print(dir(notee))
