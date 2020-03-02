@@ -52,7 +52,7 @@ for note in notebook.search('Here'):
     print(note.memo)
 
 print()
-print('Exploring using dir and isinstance: ')
+print('Exploring classes using dir and isinstance: ')
 
 print('Note attributes and methods: ', dir(note))
 print('Notebook attributes and methods:', dir(notebook))
