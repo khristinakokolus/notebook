@@ -5,7 +5,7 @@ from menu import Menu
 print('Exploring menu:')
 print('whether menu.choices is a dictionary, menu attributes:')
 menu = Menu()
-print(isinstance(menu.choices,dict))
+print(isinstance(menu.choices, dict))
 print(dir(menu))
 
 print()
@@ -28,9 +28,9 @@ note_match2 = notee.match('Hello')
 print('first note match function result(word: my note):', note_match)
 print('first note match function result(word: Hello): ', note_match2 )
 
-notebook.new_note(notee.memo,notee.tags) #сreating a new note
-notebook.new_note(noteee.memo,noteee.tags)
-notebook.new_note(note.memo,note.tags)
+notebook.new_note(notee.memo, notee.tags) #сreating a new note
+notebook.new_note(noteee.memo, noteee.tags)
+notebook.new_note(note.memo, note.tags)
 print('All notes in the notebook:')
 for note in notebook.notes:
     print(note.__dict__)
@@ -43,11 +43,11 @@ find = notebook._find_note(notebook.notes[0].id)
 print(find.memo)
 
 print('Example of using modifying memo, tags function(changing one memo and tag):')
-notebook.modify_memo(notebook.notes[0].id,'Good bye')
-notebook.modify_tags(notebook.notes[1].id,'you with me')
+notebook.modify_memo(notebook.notes[0].id, 'Good bye')
+notebook.modify_tags(notebook.notes[1].id, 'you with me')
 for note in notebook.notes:
     print('note memo: ', note.memo)
-    print('note tag: ',note.tags)
+    print('note tag: ', note.tags)
 
 print('Example of using search function(word: Here):')
 for note in notebook.search('Here'):
@@ -56,7 +56,7 @@ for note in notebook.search('Here'):
 print()
 print('Exploring using dir and isinstance: ')
 
-print('Note attributes and methods: ',dir(note))
+print('Note attributes and methods: ', dir(note))
 print('Notebook attributes and methods:', dir(notebook))
 
 print(isinstance(note, Note))
