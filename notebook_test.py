@@ -1,11 +1,9 @@
 from notebook import Note, Notebook
 from menu import Menu
 
-
-print('Exploring menu:')
-print('whether menu.choices is a dictionary, menu attributes:')
 menu = Menu()
-print(isinstance(menu.choices, dict))
+print('Exploring menu:')
+print('Menu attributes:')
 print(dir(menu))
 
 print()
