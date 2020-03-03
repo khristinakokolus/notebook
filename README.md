@@ -14,16 +14,18 @@ options to choose: 1. Show all Notes; 2. Search Notes; 3. Add Note; 4. Modify No
 ### Notebook: 
 
 
-![](notebook1.png)
-
 ![](notebook2.png)
 
 ![](notebook3.png)
 
+![](notebook1.png)
+
 ### Menu:
 
 ![](menu1.png)
+
 ![](menu2.png)
+
 ![](menu3.png)
 
 
