@@ -15,7 +15,9 @@ options to choose: 1. Show all Notes; 2. Search Notes; 3. Add Note; 4. Modify No
 
 
 ![](notebook1.png)
+
 ![](notebook2.png)
+
 ![](notebook3.png)
 
 ### Menu:
@@ -26,7 +28,7 @@ options to choose: 1. Show all Notes; 2. Search Notes; 3. Add Note; 4. Modify No
 
 
 ### Conclusion
-The modules menu and notebook help to make notes and update them or delete when you want. Moreover, there are many different options
+The modules menu and notebook help to make notes and update them or delete when you want. Moreover, there are many different options.
 
 
 ### Author
