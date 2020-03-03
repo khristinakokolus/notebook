@@ -17,7 +17,7 @@ noteee = Note('Here me again', 'hi!')
 note = Note('Hello everyone in the world.', 'world')
 notebook = Notebook()
 
-print('Type of the note, first note of the dictionary, note attributes')
+print('Type of the note, the dictionary of first note, first note attributes: ')
 print(type(notee))
 print(notee.__dict__)
 print(dir(notee))
@@ -40,7 +40,7 @@ print('Find the first note:')
 find = notebook._find_note(notebook.notes[0].id)
 print(find.memo)
 
-print('Example of using modifying memo, tags function(changing one memo and tag):')
+print('Example of using modifying memo, tags function(changing one memo and one tag):')
 notebook.modify_memo(notebook.notes[0].id, 'Good bye')
 notebook.modify_tags(notebook.notes[1].id, 'you with me')
 for note in notebook.notes:
@@ -57,9 +57,8 @@ print('Exploring classes using dir and isinstance: ')
 print('Note attributes and methods: ', dir(note))
 print('Notebook attributes and methods:', dir(notebook))
 
-print(isinstance(note, Note))
-print(isinstance(notebook, Notebook))
-
+print('note is Note: ', isinstance(note, Note))
+print('notebook is notebook: ', isinstance(notebook, Notebook))
 
 print('note.id is int: ', isinstance(note.id, int))
 print('note.memo is str: ', isinstance(note.memo, str))
